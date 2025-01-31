@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>انشاء حساب</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="firebaseauth.js" defer></script>
+</head>
+<body>
+    <div class="login">
+        <img class="reyk" src="images/logo.jpg" alt="logo" height="100px">
+        <h1 class="p1"> Sign UP</h1>
+
+        <form id="signupForm" class="form">
+          <div class="lnput-text p1">
+            <input type="name" placeholder="name" id="name" required>
+        </div>
+            <div class="lnput-text p1">
+                <input type="email" placeholder="Email" id="email" required>
+            </div>
+            <div class="lnput-text">
+                <input type="password" placeholder="password" id="password" required>
+                
+  <label for="password"> show</label>
+  <input type="checkbox" id="togglePassword" onclick="togglePasswordVisibility()">
+  
+
+  <script>
+    function togglePasswordVisibility() {
+      const passwordInput = document.getElementById("password");
+      if (passwordInput.type === "password") {
+        passwordInput.type = "text";
+      } else {
+        passwordInput.type = "password";
+      }
+    }
+  </script>
+
+            </div>
+            <input class="btn m1" type="submit" value=" Sign Up" id="submit" href="online free library 2.html">
+            <p class="m1"> Have an account? </p>
+            <a class="m2" href="index.html"> Sign In</a> 
+        </form>
+      
+        
+    </div>
+</body>
+</html>
