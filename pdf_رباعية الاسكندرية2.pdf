@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <title>تفاصيل الكتاب </title>
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+
+
+    <div class="boox">
+<div class="img" >
+<img src="images/رباعية الاسكندرية2.jpg" alt="صوره" width="200px">
+</div>
+
+<h1>
+ اسم الرواية:  رباعية الاسكندرية2
+</h1>
+
+<br>
+
+<h2>
+   النوع: رواية
+</h2>
+
+<br>
+
+<h2>
+   الكاتب:  فخري لبيب
+</h2>
+
+<br>
+    <p>
+        رواية "جوستين" هي الجزء الأول من "رباعية الإسكندرية" التي كتبها "لورانس داريل" عن الإسكندرية. وهي تحكي قصة امرأة تعيش في حمأة خطيئة لا تزهدها... إنها تتذوق كل ما تراه عيناها، لكنها أبداً لا ترتوي.. فهي تنهل من ماء ملح آسن يزيد من لهيب ظمئها.
+    </p>
+  <br>
+  
+<a class="open" href="pdf/رباعية الاسكندرية2.pdf"> اقراء </a>
+<br>
+<a class="open" href="" download="pdf/رباعية الاسكندرية2.pdf"> تحميل </a>
+<br>
+<a  class="open" href="online free library 2.html"> رجوع</a>
+</div>
+
+</body>
+</html>
